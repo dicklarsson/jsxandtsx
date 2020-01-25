@@ -1,0 +1,33 @@
+{
+  "name": "jsxandtsx",
+  "version": "1.0.0",
+  "description": "JSX and TSX, using Webpack, Typescript, Babel and Custom Elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Dick Henrik Larsson",
+    "url": "https://twitter.com/dicklarsson"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "babel-loader": "^8.0.6",
+    "morphdom": "^2.5.12",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3"
+  }
+}
